@@ -33,7 +33,22 @@ namespace MaraCrawlerNet
         public int Secondary { get; set; }
         public string SanctionDate { get; set; }
         public string CeaseDate { get; set; }
+    }
 
+    public class ShortBusiness
+    {
+        public string BusinessID { get; set; }
+        public string ABN { get; set; }
+        public string EntityName { get; set; }
+        public string BusinessName { get; set; }
+        
+        public string BusinessClassificationCode { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+
+        public string MARN { get; set; }
+        
 
     }
 }
